@@ -1,0 +1,9 @@
+default_context:
+  author: "Nig3l"
+  blender_addon_name : "Dummy Addon"
+  blender_addon_description : "Dummy Blender plugin for tests purpose"
+  blender_addon_location : "View 3D > Object"
+  blender_addon_category : "Object"
+  blender_addon_git_name : "blender-dummy-addon"
+
+  addon_module : "dummy_addon"
