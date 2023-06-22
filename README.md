@@ -4,10 +4,17 @@ Cookiecutter template used to easily create blender addon.
 
 ![Demo](.media/demo.gif)
 
-## ⚙️ Installation
+## ⚙️ Launch
 
-1. Download latest version from [Release](https://github.com/Ni-g-3l/blender-addon-template/releases)
-2. Install it with Blender Addon Manager
+Run one of the following command in order to generate cookiecutter.
+
+```bash
+# HTTPS
+cookiecutter https://git@github.com/Ni-g-3l/blender-addon-template.git
+
+# SSH
+cookiecutter git+ssh://git@github.com/Ni-g-3l/blender-addon-template.git
+```
 
 ## 🔢 Versioning
 
