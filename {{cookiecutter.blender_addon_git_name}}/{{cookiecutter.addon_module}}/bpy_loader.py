@@ -13,17 +13,11 @@ __all__ = (
 
 blender_version = bpy.app.version
 
-modules = None
-ordered_classes = None
-
-def init():
-    global modules
-    global ordered_classes
+def register():
 
     modules = get_all_submodules(Path(__file__).parent)
     ordered_classes = get_ordered_classes_to_register(modules)
 
-def register():
     for cls in ordered_classes:
         bpy.utils.register_class(cls)
 
@@ -34,6 +28,10 @@ def register():
             module.register()
 
 def unregister():
+
+    modules = get_all_submodules(Path(__file__).parent)
+    ordered_classes = get_ordered_classes_to_register(modules)
+
     for cls in reversed(ordered_classes):
         bpy.utils.unregister_class(cls)
 
