@@ -12,8 +12,6 @@ bl_info = {
 
 from {{cookiecutter.addon_module}} import bpy_loader
 
-bpy_loader.init()
-
 def register():
     bpy_loader.register()
 
