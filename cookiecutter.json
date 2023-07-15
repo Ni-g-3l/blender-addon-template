@@ -1,11 +1,31 @@
 {
-    "blender_addon_name" : "",
-    "blender_addon_description" : "",
-    "blender_addon_location" : "",
-    "blender_addon_category" : "",
+    "blender_addon_name": "",
+    "blender_addon_description": "",
+    "blender_addon_category": [
+        "User",
+        "3D View",
+        "Add Curve",
+        "Add Mesh",
+        "Animation",
+        "Baking",
+        "Camera",
+        "Development",
+        "Import-Export",
+        "Interface",
+        "Lighting",
+        "Material",
+        "Mesh",
+        "Node",
+        "Object",
+        "Paint",
+        "Render",
+        "Rigging",
+        "Sequencer",
+        "System",
+        "UV",
+        "Video Tools"
+    ],
     "blender_addon_git_name": "",
-    
-    "addon_module" : "",
-
-    "author" : ""
+    "addon_module": "",
+    "author": ""
 }
