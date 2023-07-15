@@ -3,7 +3,7 @@ bl_info = {
     "author": "{{cookiecutter.author}}",
     "version": (0, 1),
     "blender": (3, 5, 1),
-    "location": "{{cookiecutter.blender_addon_location}}",
+    "location": "{{cookiecutter.blender_addon_category}}",
     "description": "{{cookiecutter.blender_addon_description}}",
     "warning": "",
     "doc_url": "https://github.com/{{cookiecutter.author}}/{{cookiecutter.blender_addon_git_name}}",
