@@ -10,6 +10,10 @@ This project was bootstrapped with [Blender Addon Template](git@github.com:kitch
 
 In the project directory, you can run:
 
+### `make build`
+
+Creates a zip file of your addon that you can install with the blender addon manager.
+
 ### `make test`
 
 Launches the unittest test runner.
