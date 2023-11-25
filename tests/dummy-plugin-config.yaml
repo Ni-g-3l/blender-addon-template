@@ -1,8 +1,8 @@
 default_context:
   author: "Nig3l"
-  blender_addon_name : "Dummy Addon"
-  blender_addon_description : "Dummy Blender plugin for tests purpose"
-  blender_addon_category : "Object"
-  blender_addon_git_name : "blender-dummy-addon"
+  name : "Dummy Addon"
+  description : "Dummy Blender plugin for tests purpose"
+  addon_category : "Object"
+  repository_name : "blender-dummy-addon"
 
   addon_module : "dummy_addon"

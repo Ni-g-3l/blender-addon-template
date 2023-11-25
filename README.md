@@ -2,7 +2,7 @@
 
 Cookiecutter template used to easily create blender addon.
 
-![Demo](.media/demo.gif)
+![Demo](.media/header.png)
 
 ## ⚙️ Launch
 

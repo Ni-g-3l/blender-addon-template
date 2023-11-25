@@ -1,7 +1,7 @@
 {
-    "blender_addon_name": "",
-    "blender_addon_description": "",
-    "blender_addon_category": [
+    "name": "",
+    "description": "",
+    "addon_category": [
         "User",
         "3D View",
         "Add Curve",
@@ -25,7 +25,7 @@
         "UV",
         "Video Tools"
     ],
-    "blender_addon_git_name": "",
+    "repository_name": "",
     "addon_module": "",
     "author": ""
 }
