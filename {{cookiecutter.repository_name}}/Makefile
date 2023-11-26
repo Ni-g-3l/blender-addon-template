@@ -1,8 +1,10 @@
-build:
-	find . -name \*.pyc -delete
-	find . -name __pycache__ -delete
+build: clean
 	mkdir -p dist/build
 	zip -r dist/build/{{cookiecutter.addon_module}}.zip {{cookiecutter.addon_module}}
+
+clean:
+	find . -name \*.pyc -delete
+	find . -name __pycache__ -delete
 
 test:
 	python -m unittest discover

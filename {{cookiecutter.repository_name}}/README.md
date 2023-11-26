@@ -14,6 +14,10 @@ In the project directory, you can run:
 
 Creates a zip file of your addon that you can install with the blender addon manager.
 
+### `make clean`
+
+Removes all unnecessary compiled python files.
+
 ### `make test`
 
 Launches the unittest test runner.
