@@ -38,8 +38,6 @@ clean:
 	@echo "------------------------------------------------------- "
 
 test:
+	@echo "---------------------- RUN TESTS ---------------------- "
 	python3 -m unittest discover tests
-
-coverage:
-	coverage run -m unittest discover
-	coverage report -m
+	@echo "------------------------------------------------------- "
