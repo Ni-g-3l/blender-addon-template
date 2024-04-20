@@ -38,7 +38,7 @@ clean:
 	@echo "------------------------------------------------------- "
 
 test:
-	python -m unittest discover
+	python3 -m unittest discover tests
 
 coverage:
 	coverage run -m unittest discover
