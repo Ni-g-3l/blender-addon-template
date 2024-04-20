@@ -1,3 +1,4 @@
+
 # Blender Addon : {{cookiecutter.name}}
 
 {{cookiecutter.description}}
@@ -5,6 +6,14 @@
 ![Demo](.media/header.png)
 
 This project was bootstrapped with [Blender Addon Template](git@github.com:kitchen-production/blender-addon-template.git).
+
+
+<center>
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="nig3lpron" data-color="#ff9300" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>
+
+</center>
+
 
 ## ⚙️ Commands
 
