@@ -1,7 +1,7 @@
 bl_info = {
     "name": "{{cookiecutter.name}}",
     "author": "{{cookiecutter.author}}",
-    "version": (0, 1),
+    "version": (0, 1, 0),
     "blender": (3, 5, 1),
     "location": "{{cookiecutter.addon_category}}",
     "description": "{{cookiecutter.description}}",

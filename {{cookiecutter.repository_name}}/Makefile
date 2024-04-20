@@ -16,7 +16,7 @@ deploy:release
 	@echo "------------------- DEPLOY PACKAGE -------------------- "
 	@echo Deploying ${PACKAGE_VERSION} version
 	@git push --tags
-	@gh release create ${PACKAGE_VERSION} ./dist/dist/{{cookiecutter.addon_module}}-${PACKAGE_VERSION}.zip --generate-notes --latest 
+	@gh release create ${PACKAGE_VERSION} ./dist/{{cookiecutter.addon_module}}-${PACKAGE_VERSION}.zip --generate-notes --latest 
 	@echo "------------------------------------------------------- "
 
 release:build clean
